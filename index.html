@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="media.css" />
+        <title>Form and table</title>
+    </head>
+    <body>
+        <div id="container" class="container">
+            <div class="Box">
+                <div class="formDiv">
+                    <form action="">
+                        <input type="text" placeholder="name.." id="name" />
+                        <input
+                            type="text"
+                            placeholder="surname.."
+                            id="surname"
+                        />
+                        <input type="number" placeholder="age.." id="age" />
+                        <input type="number" placeholder="marks.." id="marks" />
+                        <button id="AccessButton" type="button">Access</button>
+                    </form>
+                </div>
+                <div class="tableDiv">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Surname</th>
+                                <th>Age</th>
+                                <th>Marks</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="buttonsDiv">
+                <div class="buttonsBox">
+                    <button id="averageBtn" disabled>Average</button>
+                    <button id="clearBtn" disabled>Clear</button>
+                    <button id="lastDeleteBtn" disabled>Delete Last</button>
+                </div>
+            </div>
+            <p id="average" class="averageText hide"></p>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

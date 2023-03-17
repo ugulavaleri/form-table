@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+    .Box {
+        flex-direction: column;
+    }
+    table {
+        width: 420px;
+        margin: 0 auto;
+    }
+}
