@@ -93,6 +93,10 @@ button {
 
     transition: all 0.07s ease-out;
 }
+form button {
+    max-width: 100px;
+    width: 100%;
+}
 button:hover {
     background-color: rgb(240, 240, 240);
 }
