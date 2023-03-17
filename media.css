@@ -6,4 +6,7 @@
         width: 420px;
         margin: 0 auto;
     }
+    .averageText {
+        font-size: 30px;
+    }
 }
