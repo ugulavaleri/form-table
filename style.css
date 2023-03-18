@@ -37,7 +37,7 @@ body {
 .buttonsBox {
     display: flex;
     justify-content: space-between;
-    max-width: 270px;
+    max-width: 300px;
     margin: 0 auto;
 }
 table {
@@ -92,6 +92,10 @@ button {
     cursor: pointer;
 
     transition: all 0.07s ease-out;
+}
+button:first-child {
+    max-width: 120px;
+    width: 100%;
 }
 form button {
     max-width: 100px;

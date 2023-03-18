@@ -74,7 +74,7 @@ const calcAverage = () => {
             cur = Number(cur);
             return acc + cur;
         }, 0);
-        average.textContent = `average of Marks: ${reduce / markArray.length}`;
+        average.textContent = reduce / markArray.length;
         average.classList.remove("hide");
     });
     container.appendChild(average);
